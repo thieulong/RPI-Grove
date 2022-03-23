@@ -1,6 +1,6 @@
 import time
 from grove.factory import Factory
-
+#I2C Camera
 # LCD 16x2 Characters
 dobj = Factory.getDisplay("JHD1802")
 # If it's OLED Display 1.12"
