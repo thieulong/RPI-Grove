@@ -6,4 +6,4 @@ while True:
     relay.on()
     time.sleep(2)
     relay.off()
-    time.sleep(5)
+    time.sleep(2)
