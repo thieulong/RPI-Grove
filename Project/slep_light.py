@@ -14,7 +14,7 @@ def approximate(a, b, c):
       if abs(a-b)<thres and abs(a-c)<thres and abs(b-c)<thres:
             return True
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 with mp_pose.Pose(
     min_detection_confidence=0.7,
     min_tracking_confidence=0.5) as pose:

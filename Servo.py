@@ -1,7 +1,7 @@
 from grove.grove_servo import GroveServo
 import time
 
-servo = GroveServo(5)
+servo = GroveServo(16)
 
 while True:
     for x in range(0, 180):
